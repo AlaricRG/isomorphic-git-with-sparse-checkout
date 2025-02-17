@@ -10,6 +10,7 @@
       "log",
       "fetch",
       "checkout",
+      "sparseCheckout",
       "push",
       "pull",
       "fastForward",

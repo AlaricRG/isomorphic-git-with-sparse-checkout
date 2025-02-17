@@ -6,9 +6,9 @@ import { _sparseCheckout } from '../commands/sparseCheckout.js'
 /**
  * Sparse Checkout a branch
  *
- * @param {string} repoUrl
- * @param {string} ref
- * @param {string} paths
+ * @param {string} repoUrl Url of the repo
+ * @param {string} ref Branch in the repo
+ * @param {string} paths Path to checkout
  *
  * @returns {Promise<void>} Resolves successfully when filesystem operations are complete
  *
