@@ -22,7 +22,8 @@
     "publish-website": "nps website",
     "prepublishOnly": "nps prepublish",
     "semantic-release": "semantic-release",
-    "add-contributor": "nps contributors.add"
+    "add-contributor": "nps contributors.add",
+    "install": "npm run build"
   },
   "repository": {
     "type": "git",
