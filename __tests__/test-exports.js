@@ -64,6 +64,7 @@ describe('exports', () => {
         "resetIndex",
         "resolveRef",
         "setConfig",
+        "sparseCheckout",
         "stash",
         "status",
         "statusMatrix",

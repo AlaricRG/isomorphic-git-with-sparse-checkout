@@ -56,6 +56,7 @@ import { renameBranch } from './api/renameBranch.js'
 import { resetIndex } from './api/resetIndex.js'
 import { resolveRef } from './api/resolveRef.js'
 import { setConfig } from './api/setConfig.js'
+import { sparseCheckout } from './api/sparseCheckout.js'
 import { stash } from './api/stash.js'
 import { status } from './api/status.js'
 import { statusMatrix } from './api/statusMatrix.js'
@@ -131,6 +132,7 @@ export {
   resetIndex,
   updateIndex,
   resolveRef,
+  sparseCheckout,
   status,
   statusMatrix,
   tag,
@@ -205,6 +207,7 @@ export default {
   resetIndex,
   updateIndex,
   resolveRef,
+  sparseCheckout,
   status,
   statusMatrix,
   tag,
