@@ -17,13 +17,12 @@
   "scripts": {
     "start": "nps",
     "format": "nps format",
-    "build": "nps build",
-    "test": "nps test",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && nps build",
+    "test": "export NODE_OPTIONS=--openssl-legacy-provider && nps test",
     "publish-website": "nps website",
     "prepublishOnly": "nps prepublish",
     "semantic-release": "semantic-release",
-    "add-contributor": "nps contributors.add",
-    "install": "npm run build"
+    "add-contributor": "nps contributors.add"
   },
   "repository": {
     "type": "git",
