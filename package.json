@@ -17,8 +17,8 @@
   "scripts": {
     "start": "nps",
     "format": "nps format",
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider && nps build",
-    "test": "export NODE_OPTIONS=--openssl-legacy-provider && nps test",
+    "build": "nps build",
+    "test": "nps test",
     "publish-website": "nps website",
     "prepublishOnly": "nps prepublish",
     "semantic-release": "semantic-release",
